@@ -1,0 +1,37 @@
+ @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+ .headin{
+   font-family: Montserrat;
+   text-transform: uppercase;
+   text-decoration-color: #a976e8 !important;
+   text-decoration: overline;
+   color: black !important;
+ }
+
+
+
+
+.jumbotron{
+  border-bottom: solid 8px lightgreen;
+}
+
+.images img{
+  height: 300px;
+  border: 4px solid black;
+}
+
+.corousel-cell{
+  height: auto ;
+  width: 100% !important;
+}
+
+.corousel-cell p{
+  font-family: Montserrat;
+  font-size: 56px;
+  color: black;
+}
+@media only screen and (max-width: 500px){
+    .corousel-cell p{
+      font-size: 30px;
+   }
+}
